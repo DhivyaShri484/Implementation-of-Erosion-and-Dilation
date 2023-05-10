@@ -53,7 +53,7 @@ kernel = cv2.getStructuringElement(cv2.MORPH_CROSS,(4,4))
 # Erode the image
 image_erode = cv2.erode(text_image,kernel)
 plt.title("Eroded Image")
-plt.imshow(image_erode,'bianry')
+plt.imshow(image_erode,'binary')
 plt.axis('off')
 
 

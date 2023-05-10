@@ -37,7 +37,6 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-# Create the Text using cv2.putText
 # Create the text using cv2.putText
 text_image = np.zeros((100,250),dtype = 'uint8')
 font = cv2.FONT_HERSHEY_COMPLEX_SMALL
